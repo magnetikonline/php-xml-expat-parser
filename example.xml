@@ -1,0 +1,9 @@
+<root>
+	<first-node attrib1="value" attrib2="value">
+		<second-node>second node value</second-node>
+		<third-node>
+				<fourth-node>fourth node value</fourth-node>
+				<fifth-node attrib3="value">fifth node value</fifth-node>
+		</third-node>
+	</first-node>
+</root>
