@@ -1,7 +1,10 @@
 # PHP XML Expat parser
 A class to wrap the Expat [XML Parser](http://docs.php.net/manual/en/book.xml.php) for PHP 5.4+, simplifying the parsing of forward only/streaming XML documents for reading.
 
-Class accepts two anonymous functions, one called at the start of an XML element passing any attributes the second called for an elements data/text content. Each function will be passed the full element path, used to determine at what position in the document the parser is current at.
+- Class accepts two anonymous functions:
+	- First called at the start of an XML element passing any attributes.
+	- The second called for an elements data/text content.
+- Each function will be passed the full element path, used to determine at what position in the document the parser is current at.
 
 ## Example
 ```sh
